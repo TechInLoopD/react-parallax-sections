@@ -1,0 +1,37 @@
+.background-container {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: black; /* fallback so no white flash */
+  overflow: hidden;
+  z-index: 0;
+}
+
+.background-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  background: black;
+  z-index: 0;
+}
+
+.background-image.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.featured-content {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+}
+.featured-content.active {
+  visibility: visible;
+  opacity: 1;
+}
