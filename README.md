@@ -119,12 +119,6 @@ If you see a **white screen**:
 
 ---
 
-## 🧑‍🎨 Credits
 
-- **Original Concept** inspired by creative CodePen demos  
-- **Author:** Your Name  
-- **Libraries:** GSAP, Lenis, TailwindCSS  
-
----
 
 
